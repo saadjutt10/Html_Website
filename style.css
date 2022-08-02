@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.header{
+    background-color: #7d47c7;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+}
+.top{
+    background-color: #C8B6E2;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    
+}
+.cloud1{
+    position: absolute;
+    left: 270px;
+    top: 150px;
+}
+.cloud2{
+/*Position is set according to the text aligned centre in .top div*/
+    position: relative;
+    top: 280px;
+    left: 30%;
+}
+/*Div for Placing the Name and BIO */
+.nameAndBio{
+    font-size: larger;
+    position: absolute;
+    height: 100px;
+    width: 20%;
+    top: 260px;
+    left: 45%;
+
+}
+.peerogrammer{
+    height: 100px;
+    position: absolute;
+    top: 320px;
+    left: 40%;
+}
+.mountain{
+    position: absolute;
+    bottom:-190px ;
+    left: 30%;
+}
+/************************************************Second Section*/
+.middle{
+background-color: #C8B6E2;
+
+}
+.profile-pic{
+    height: 150px;
+    margin-top: 50px;
+}
+.babuRao{
+    height: 300px;
+}
+.bottom{
+
+}
+
+h1{
+    font-family: 'Rock Salt', cursive;
+}
+h2{
+    font-family: 'Merriweather', serif;
+}
+h3{
+    font-family: 'Merriweather', serif;
+}
+
+p{
+margin-top: 8px;
+
+}
+.h1-display{
+    display: inline-block;
+}
