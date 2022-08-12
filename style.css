@@ -30,55 +30,140 @@ body{
 }
 /*Div for Placing the Name and BIO */
 .nameAndBio{
-    font-size: larger;
-    position: absolute;
+    position: relative;
     height: 100px;
     width: 20%;
-    top: 260px;
+    top: 160px;
     left: 45%;
 
 }
-.peerogrammer{
-    height: 100px;
-    position: absolute;
-    top: 320px;
-    left: 40%;
+.programmer-text{
+    font-weight: bold;
 }
-.mountain{
+.Saad-name{
+    color: #395B64;
+}
+.peerogrammer{
+    height: 6.25rem;
+    position: relative;
+    top: 320px;
+    right: 10%;
+}
+.vector{
     position: absolute;
+    height: 30%;
     bottom:-190px ;
-    left: 30%;
+    left: 5%;
 }
 /************************************************Second Section*/
 .middle{
-background-color: #C8B6E2;
-
+/*background-color: #C8B6E2;*/
+width: 40%;
+margin: 100px auto;
+text-align: center;
+line-height : 1.5;
 }
 .profile-pic{
-    height: 150px;
-    margin-top: 50px;
+    /*height: 150px;*/
+    width: 35%;
+    margin-right: 30px;
+    text-align: center;
 }
-.babuRao{
-    height: 300px;
-}
-.bottom{
+.programmer-img{
+    /*height: 200px;*/
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    padding-top: 30px;
 
+}
+.football-gif{
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-me{
+    text-align: center;
+    line-height:1;
+}
+/**************************************Bottom Sectionm    */
+.bottom{
+    background-color : #7d47c7 ;
+    height: 100px;
+}
+.footer-link{
+    position: relative;
+    top: 10px;
 }
 
 h1{
     font-family: 'Rock Salt', cursive;
+    font-size: 2.63rem;
 }
 h2{
     font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    color:  #7d47c7;
 }
 h3{
     font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color:  #8e67c4;
+}
+a{
+    color: #bc9fe4;
+    margin: 30px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: antiquewhite;
 }
 
 p{
-margin-top: 8px;
-
+    margin-top: 8px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-color:  #bab7bd;
+    border-width: 7px;
+    width: 25%;
+    clear: both;
+    margin: 100px auto;
 }
 .h1-display{
     display: inline-block;
 }
+.btn {
+    background: #bc9fe4;
+    background-image: -webkit-linear-gradient(top, #bc9fe4, #8e67c4);
+    background-image: -moz-linear-gradient(top, #bc9fe4, #8e67c4);
+    background-image: -ms-linear-gradient(top, #bc9fe4, #8e67c4);
+    background-image: -o-linear-gradient(top, #bc9fe4, #8e67c4);
+    background-image: linear-gradient(to bottom, #bc9fe4, #8e67c4);
+    -webkit-border-radius: 36;
+    -moz-border-radius: 36;
+    border-radius: 36px;
+    -webkit-box-shadow: 0px 7px 20px #666666;
+    -moz-box-shadow: 0px 7px 20px #666666;
+    box-shadow: 0px 7px 20px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+  }
+  
+  .btn:hover {
+    background: #bc9fe4;
+    background-image: -webkit-linear-gradient(top, #bc9fe4,  #4f3c69);
+    background-image: -moz-linear-gradient(top, #bc9fe4,  #4f3c69);
+    background-image: -ms-linear-gradient(top, #bc9fe4,  #4f3c69);
+    background-image: -o-linear-gradient(top, #bc9fe4,  #4f3c69);
+    background-image: linear-gradient(to bottom, #bc9fe4,  #4f3c69);
+    text-decoration: none;
+  }
